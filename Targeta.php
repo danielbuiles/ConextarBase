@@ -29,7 +29,7 @@ $Resultados=$transaccion->BuscarDatos($consultaSQL);
 
             <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="Foto/Brtty" class="card-img-top" alt="...">
+                    <img src="<?php echo($Resultado["Foto"]) ?>" class="card-img-top" alt="Foto">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo($Resultado["Nombre"]) ?></h5>
                         <p class="card-text"><?php echo($Resultado["Descripcion"]) ?></p>

@@ -26,10 +26,16 @@
                 </div>
                 
                 <div class="row mt-3">
-                    
                     <div class="col">
                         <label class="font-weight-bold">Descripción:</label>
                         <textarea class="form-control" rows="4" name="descripcion"></textarea>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col">
+                        <label class="font-weight-bold">Foto:</label>
+                        <input type="text" class="form-control" placeholder="Url-Foto" name="Foto">
                     </div>
                 </div>
                 
@@ -52,6 +58,6 @@
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
-<a href="Targeta.php"><button type="button" class="btn btn-primary">Ver Lista</button></a>
+<a href="Targeta.php">Ver Lista</a>
 </body>
 </html>
